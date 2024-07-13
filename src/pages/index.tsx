@@ -5,7 +5,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
    <div>
-    <VideoCard/>
+    <VideoCard
+    title ={"Two Formula 1 Cars, 20 Years Apart."}
+    image = {"/Video.jpg"}
+    author = {"RedBull"}
+    views = {"1M"}
+    thumbnail = {"Channel-Logo.jpg"}
+    timeStamp = {"2 days ago"}>
+    </VideoCard>
    </div>
   );
 }
